@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: red;
+}
+
+.avatar {
+    width: 100px;
+    border-radius: 50%;
+}
+
+main {
+    text-align: center;
+}
+
+.sosmed {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color:#232227;
+    padding: 10px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sosmed-icon {
+    width: 50px;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    padding: 10px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+
+
+}
+
+.arrow img {
+    width:16px ;
+    height: 16px;
+}
+
+.sosmed:hover{
+    background-color: #232227;
+    color: white;
+}
